@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="sketch-area">
+    </div>
+</div>
+<div class="controls">
+    <div class="sketch-size">
+        <label for="grid-size">Grid Size:</label>
+        <select name="grid-size">
+            <option value="16">16 x 16</option>
+            <option value="32">32 x 32</option>
+            <option value="64">64 x64</option>
+        </select>
+    </div>
+    <input type="color">
+    <button class="ncolor" data-color="black"></button>
+    <button class="ncolor" data-color="grey"></button>
+    <button class="ncolor">Random</button>
+    <button class="ncolor" data-color="white">Erase</button>
+    <button class="clear">Clear</button>
+</div>
+</body>
+</html>

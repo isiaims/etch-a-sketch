@@ -1,0 +1,49 @@
+body {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+.controls {
+    background-color: antiquewhite;
+    padding: 5px;
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-end;
+
+}
+.container {
+    background-color: aqua;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sketch-area {
+    margin: 10px;
+    height: 480px;
+    width: 480px;
+    flex: 0 1 auto;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+.sketch-area div{
+    background-color: white;
+}
+button[data-color='black'], button[data-color='grey'] {
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+}
+button[data-color='black'] {
+    border: 5px solid #a39393;
+    background-color: black;
+}
+button[data-color='grey'] {
+    border: 5px solid #e0b9b9;
+    background-color: grey;
+}
